@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +8,168 @@
 </head>
 <body>
     <header>
-        <img class="pp" src="img/lf.png" alt="Photo de Léann Farant">
-        <address>
-            <h1> Léann Farant</h1>
-            <p>Développeur Web et Web mobile</p>
+        <a href="img/lf.jpg" target="_blank"><img class="pp" src="img/lf.jpg" alt="Photo de Léann Farant"></a>
+        <div class="info"> 
+            <div class="title">
+                <h1> Léann Farant</h1>
+                <h2>Développeur Web et Web mobile</h2>
+            </div>
+            <address>
+                <div>
+                    <img src="img/icons/envelope-solid.svg" alt="icône de mail">
+                    <a href="mailto:leann.farant@outlook.fr" >leann.farant@outlook.fr</a>
+                </div>
 
-            <img src="img/icons/envelope-solid.svg" alt="icône de mail">
-            <p href="mailto:leann.farant@outlook.fr" >leann.farant@outlook.fr</p>
+                <div>
+                    <img src="img/icons/house-solid.svg" alt="icône de maison">
+                    <a href="https://urlr.me/whtWBz" target="_blank">13006 Marseille</a>
+                </div>
 
-            <img src="img/icons/house-solid.svg" alt="icône de maison">
-            <p>Adresse</p>
+                <div class="row">
+                    <img src="img/icons/phone-solid.svg" alt="icône de téléphone">
+                    <a href="tel:0631500847">0631500847</a>
+                </div>
 
-            <img src="img/icons/phone-solid.svg" alt="icône de téléphone">
-            <p href="tel: 0606060606">0606060606</p>
-
-            <img src="img/icons/car-solid.svg" alt="icône de voiture">
-            <p>Pas de permis</p>
-        </address>
-
-
+                <div class="row">
+                    <img src="img/icons/car-solid.svg" alt="icône de voiture">
+                    <p>Pas de permis</p>
+                </div>
+            </address>
+        </div>
     </header>
+
     <main>
-        <section class="skill">
-            <h2>Compétences</h2>
-            <h2>Langues</h2>
-            <h2>Qualités</h2>
-            <h2>Centres d'intérêt</h2>
+        <section class="aboutme">
+            <div class="skill">
+                <h3>Compétences</h3>
+                <p>C++ <span class="rating-1"></span></p>
+                <p>C# <span class="rating-2"></span></p>
+                <p>HTML <span class="rating-4"></span></p>
+                <p>CSS <span class="rating-4"></span></p>
+                <p>ReactJS <span class="rating-2"></span></p>
+                <p>Git <span class="rating-3"></span></p>
+                <p>Suite Adobe <span class="rating-1"></span></p>
+            </div>
+            
+            <div class="lang">
+                <h3>Langues</h3>
+                <span>Langue maternelle</span>
+                <p>Français</p>
+                <span>Professionnel</span>
+                <p>Anglais</p>
+                <span>Intermédiaire</span>
+                <p>Coréen</p>
+            </div>
+
+            <div class="quality">
+                <h3>Qualités</h3>
+                <ul>
+                    <li>Organisée</li>
+                    <li>Esprit d'équipe</li>
+                    <li>Motivée</li>
+                    <li>Ouverte d'esprit</li>
+                </ul>
+            </div>
+            <div class="hobby">
+                <h3>Centres d'intérêt</h3>
+                <ul>
+                    <li>Jeux vidéos (FPS, BR, MMO)</li>
+                    <li>Culture coréenne</li>
+                    <li>Basketball (NBA)</li>
+                    <li>Montage vidéo</li>
+                    <li>Programmation</li>
+                </ul>
+            </div>
         </section>
 
         <section class="content">
-            <h2>Profil</h2>
-            <h2>Formations</h2>
-            <h2>Stages</h2>
-            <h2>Expériences professionnelle</h2>
+            <h3>Profil</h3>
+            <p>Méticuleuse, passionnée, je suis une personne dynamique et curieuse, à la recherche de nouveaux défis et 
+                d’opportunité d’apprentissage. Mon enthousiasme pour découvrir de nouveaux sujets me permet de développer 
+                des compétences dans divers domaines, afin de les mettre en pratique dans notre collaboration.
+            </p>
+            <section class="formation">
+                <h3>Formations</h3>
+                <div>
+                    <span>Décembre 2024 - aujourd'hui</span>
+                    <h4>Titre professionnel DWWM</h4>
+                    <h5>Centre européen de formation</h5>
+                </div>        
+                <div>
+                    <span>2021-2023</span>
+                    <h4>Bachelor, développeur spécialité jeux vidéos</h4>
+                    <h5>Gaming Campus Lyon-France</h5>
+                    <ul>Cours sous forme de projets:
+                        <li>“Site e-commerce” ReactJS, Bootstrap</li>
+                        <li>“Site vitrine de The Last of Us“ CSS, HTML</li>
+                        <li>“Portfolio” HTML, CSS, Materialize, SQL</li>
+                        <li>"Gacha Game" C#, Unity</li>
+                        <li>"Pokémon en console" C#</li>
+                        <li>"Shaders" Unity, shader graph</li>
+                    </ul>
+                    <p>
+                        Cours de coréen: 2h par semaine /
+                        Cours d’anglais: 2h par semaine  
+                    </p>          
+                </div>
+               
+            </section>
+            <section class="stage">
+                <h3>Stages</h3>
+                <div>
+                    <span>Mai 2023-  Septembre 2023</span>
+                    <h4>Front developpeur</h4>
+                    <h5>FrownGate</h5>
+                    <ul>
+                        <li>Conception des 11 menus et HUI du jeu</li>
+                        <li>Création de l’ambiance musicale du jeu</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <span>22-24 Octobre  2021</span>
+                    <h4>Développeur</h4>
+                    <h5>Scientific Game Jam</h5>
+                    <p>Aide à la programmation du jeu “Ainsi sera” (disponible sur itch.io):</p>
+                    <ul>
+                        <li>Conception de fonctions</li>
+                        <li>Création des cartes avec Unity</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <span>Décembre 2017</span>
+                    <h4>Stagiaire</h4>
+                    <h5>S.P.A Martinique</h5>   
+                    <ul>
+                        <li>Nettoyer les 30 boxes et les animaux</li>
+                        <li>Nourrir les animaux</li>
+                        <li>Sortir les chiens</li>
+                        <li>Donner des médicaments aux animaux</li>
+                    </ul>
+                </div>
+                  
+            </section>
+            <section class="exp">
+                <h3>Expériences professionnelle</h3>
+                <div>
+                    <span>Juin 2022-  Juin 2024</span>
+                    <h4>Equipier Polyvalent</h4>  
+                    <h5>McDonald's Lyon</h5>
+                    <ul>
+                        <li>Accueil des clients: réponse aux demandes d’information sur les produits / prise de commandes</li>
+                        <li>Cuisine: préparation et assemblage des produits</li>
+                        <li>Service en salle: nettoyage des tables après le passage des clients / changement des poubelles du lobby</li>
+                    </ul>  
+                </div>
+            </section>
         </section>
     </main>
     <footer>
-        <img src="img/icons/linkedin-brands-solid.svg" alt="icône de linkedin">
-        <img src="img/icons/github-brands-solid.svg" alt="icône de github">
-        <img src="img/icons/instagram-brands-solid.svg" alt="icône d'instagram">
+        <a href="https://www.linkedin.com/in/l%C3%A9ann-farant-526232224/" target="_blank"><img src="img/icons/linkedin-brands-solid.svg" alt="icône de linkedin"></a>
+        <a href="https://github.com/LeannF" target="_blank"><img src="img/icons/github-brands-solid.svg" alt="icône de github"></a>
+        <a href="https://www.instagram.com/lele97281/#" target="_blank"><img src="img/icons/instagram-brands-solid.svg" alt="icône d'instagram"></a>
+        <p>Mis à jour le <time datetime="2025-01-01T16:46+02:00"> 01/01/2025</time> </p>
     </footer>
 </body>
 </html>
